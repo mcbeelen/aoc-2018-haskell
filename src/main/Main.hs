@@ -1,4 +1,8 @@
 module Main where
 
+import Aoc (oracle)
+import Data.List
+
+
 main :: IO ()
-main = putStrLn "Hello, Haskell!"
+main = putStrLn (concat (intersperse " " ["Hello,", (oracle ""), "!"]))
