@@ -67,6 +67,5 @@ cabal install HUnit
 cabal install tasty
 cabal install tasty-hunit
     
-    
 ```
 
